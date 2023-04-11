@@ -1,0 +1,22 @@
+{
+    "name": "bebra678/praktikaback",
+    "description": "Praktika",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bebra678",
+            "email": "daniilkatrasov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Сотрудники</title>
+    <title>РЎРѕС‚СЂСѓРґРЅРёРєРё</title>
     <style type="text/css">
         @font-face { 
     font-family: "JuraLight";
@@ -111,7 +111,7 @@ body {
 
 
 
-/* сотрудники */
+/* СЃРѕС‚СЂСѓРґРЅРёРєРё */
 .back {
     width: 1600px;
     min-height: 1100px;
@@ -492,54 +492,54 @@ img {
 </head>
 <body>
     <div class="back">
-        <div class="top"><p>Учебно-методическое управление</p></div>
-        <div class="block3_1"><p>Все сотрудники</p></div>
-        <div class="block3"><p>Подразделение 1</p></div>
-        <div class="block3"><p>Подразделение 2</p></div>
-        <div class="block3"><p>Подразделение 3</p></div>
+        <div class="top"><p>РЈС‡РµР±РЅРѕ-РјРµС‚РѕРґРёС‡РµСЃРєРѕРµ СѓРїСЂР°РІР»РµРЅРёРµ</p></div>
+        <div class="block3_1"><p>Р’СЃРµ СЃРѕС‚СЂСѓРґРЅРёРєРё</p></div>
+        <div class="block3"><p>РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ 1</p></div>
+        <div class="block3"><p>РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ 2</p></div>
+        <div class="block3"><p>РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ 3</p></div>
 
         <div class="block4">
-            <p class="amount">Количество: 3</p>
+            <p class="amount">РљРѕР»РёС‡РµСЃС‚РІРѕ: 3</p>
             <div class="people">
                 <img src="Man_silhouette.svg (1).png">
                 <div class="text">
-                    <p class="text1">Фамилия Имя Отчество</p>
-                    <p class="text2">Подразделение</p>
-                    <p class="text2">Должность</p>
-                    <p class="text2">Пол</p>
-                    <p class="text2">Дата рождения</p>
-                    <p class="text2">Адрес прописки</p>
+                    <p class="text1">Р¤Р°РјРёР»РёСЏ РРјСЏ РћС‚С‡РµСЃС‚РІРѕ</p>
+                    <p class="text2">РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ</p>
+                    <p class="text2">Р”РѕР»Р¶РЅРѕСЃС‚СЊ</p>
+                    <p class="text2">РџРѕР»</p>
+                    <p class="text2">Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ</p>
+                    <p class="text2">РђРґСЂРµСЃ РїСЂРѕРїРёСЃРєРё</p>
                 </div>
             </div>
             <div class="people">
                 <img src="Man_silhouette.svg (1).png">
                 <div class="text">
-                    <p class="text1">Фамилия Имя Отчество</p>
-                    <p class="text2">Подразделение</p>
-                    <p class="text2">Должность</p>
-                    <p class="text2">Пол</p>
-                    <p class="text2">Дата рождения</p>
-                    <p class="text2">Адрес прописки</p>
+                    <p class="text1">Р¤Р°РјРёР»РёСЏ РРјСЏ РћС‚С‡РµСЃС‚РІРѕ</p>
+                    <p class="text2">РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ</p>
+                    <p class="text2">Р”РѕР»Р¶РЅРѕСЃС‚СЊ</p>
+                    <p class="text2">РџРѕР»</p>
+                    <p class="text2">Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ</p>
+                    <p class="text2">РђРґСЂРµСЃ РїСЂРѕРїРёСЃРєРё</p>
                 </div>
             </div>
             <div class="people">
                 <img src="Man_silhouette.svg (1).png">
                 <div class="text">
-                    <p class="text1">Фамилия Имя Отчество</p>
-                    <p class="text2">Подразделение</p>
-                    <p class="text2">Должность</p>
-                    <p class="text2">Пол</p>
-                    <p class="text2">Дата рождения</p>
-                    <p class="text2">Адрес прописки</p>
+                    <p class="text1">Р¤Р°РјРёР»РёСЏ РРјСЏ РћС‚С‡РµСЃС‚РІРѕ</p>
+                    <p class="text2">РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ</p>
+                    <p class="text2">Р”РѕР»Р¶РЅРѕСЃС‚СЊ</p>
+                    <p class="text2">РџРѕР»</p>
+                    <p class="text2">Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ</p>
+                    <p class="text2">РђРґСЂРµСЃ РїСЂРѕРїРёСЃРєРё</p>
                 </div>
             </div>
         </div>
 
         <div class="panel">
-            <div><a href="">Главная</a></div>
-            <div><a href="">Сотрудники</a></div>
-            <div><a href="">Подразделения</a></div>
-            <div><a href="">Дисциплины</a></div>
+            <div><a href="">Р“Р»Р°РІРЅР°СЏ</a></div>
+            <div><a href="">РЎРѕС‚СЂСѓРґРЅРёРєРё</a></div>
+            <div><a href="">РџРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ</a></div>
+            <div><a href="">Р”РёСЃС†РёРїР»РёРЅС‹</a></div>
         </div>
     </div>
 </body>

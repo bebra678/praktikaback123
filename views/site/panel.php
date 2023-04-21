@@ -492,8 +492,12 @@ img {
 </head>
 <body>
         <div class="top"><p>Учебно-методическое управление</p></div>
-        <div class="block1"><a href="<?= app()->route->getUrl('/sot') ?>">Сотрудники</a></div>
-        <div class="block"><a href="<?= app()->route->getUrl('/pod') ?>">Подразделения</a></div>
-        <div class="block"><a href="<?= app()->route->getUrl('/dis') ?>">Дисциплины</a></div>
+        <p><?= $sotrydnik ?? ''; ?></p><br>
+        <form method="post">
+            <input name="csrf_token" type="hidden" value="<?= app()->auth::generateCSRF() ?>"/>
+            <label>����� ������������ <input type="text" name="login"></label>
+            <label>Пароль <input type="text" name="password"></label>
+        <button>Войти</button>
+    </form>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Дисциплины</title>
+    <title>Р”РёСЃС†РёРїР»РёРЅС‹</title>
     <style type="text/css">
         @font-face { 
     font-family: "JuraLight";
@@ -111,7 +111,7 @@ body {
 
 
 
-/* сотрудники */
+/* СЃРѕС‚СЂСѓРґРЅРёРєРё */
 .back {
     width: 1600px;
     min-height: 1100px;
@@ -491,10 +491,10 @@ img {
     </style>
 </head>
 <body>
-    <div class="top"><p>Учебно-методическое управление</p></div>
-    <div class="block5_1"><p>Дисциплина 1</p></div>
-    <div class="block5"><p>Дисциплина 2</p></div>
-    <div class="block5"><p>Дисциплина 3</p></div>
-    <div class="lock">Смотреть</div>
+    <div class="top"><p>РЈС‡РµР±РЅРѕ-РјРµС‚РѕРґРёС‡РµСЃРєРѕРµ СѓРїСЂР°РІР»РµРЅРёРµ</p></div>
+    <div class="block5_1"><p>Р”РёСЃС†РёРїР»РёРЅР° 1</p></div>
+    <div class="block5"><p>Р”РёСЃС†РёРїР»РёРЅР° 2</p></div>
+    <div class="block5"><p>Р”РёСЃС†РёРїР»РёРЅР° 3</p></div>
+    <div class="lock">РЎРјРѕС‚СЂРµС‚СЊ</div>
 </body>
 </html>

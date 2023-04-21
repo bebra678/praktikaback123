@@ -1,9 +1,9 @@
-<h2>Регистрация нового пользователя</h2>
+<h2>Р РµРіРёСЃС‚СЂР°С†РёСЏ РЅРѕРІРѕРіРѕ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</h2>
 <pre><?= $message ?? ''; ?></pre>
 <form method="post">
    <input name="csrf_token" type="hidden" value="<?= app()->auth::generateCSRF() ?>"/>
-   <label>Имя <input type="text" name="name"></label>
-   <label>Логин <input type="text" name="login"></label>
-   <label>Пароль <input type="password" name="password"></label>
-   <button>Зарегистрироваться</button>
+   <label>РРјСЏ <input type="text" name="name"></label>
+   <label>Р›РѕРіРёРЅ <input type="text" name="login"></label>
+   <label>РџР°СЂРѕР»СЊ <input type="password" name="password"></label>
+   <button>Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°С‚СЊСЃСЏ</button>
 </form>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Смотреть</title>
+    <title>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</title>
     <style type="text/css">
         @font-face { 
     font-family: "JuraLight";
@@ -111,7 +111,7 @@ body {
 
 
 
-/* сотрудники */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 .back {
     width: 1600px;
     min-height: 1100px;
@@ -492,30 +492,30 @@ img {
 </head>
 <body>
     <div class="back">
-        <div class="top"><p>Учебно-методическое управление</p></div>
-        <div class="block6_1"><p>Фамиля Имя Отчество</p></div>
-        <div class="block6"><p>Фамиля Имя Отчество</p></div>
-        <div class="block6"><p>Фамиля Имя Отчество</p></div>
+        <div class="top"><p>пїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6_1"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
 
-        <div class="block6_1"><p>Фамиля Имя Отчество</p></div>
-        <div class="block6"><p>Фамиля Имя Отчество</p></div>
-        <div class="block6"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6_1"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
 
-        <div class="block6_1"><p>Фамиля Имя Отчество</p></div>
-        <div class="block6"><p>Фамиля Имя Отчество</p></div>
-        <div class="block6"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6_1"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
 
-        <div class="block6_1"><p>Фамиля Имя Отчество</p></div>
-        <div class="block6"><p>Фамиля Имя Отчество</p></div>
-        <div class="block6"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6_1"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
+        <div class="block6"><p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p></div>
 
-        <p class="text66">Дисциплины, которые смотрят сотрудники:</p>
+        <p class="text66">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:</p>
 
-        <div class="block7_1"><p>Дисциплина 1</p></div>
-        <div class="block7"><p>Дисциплина 2</p></div>
-        <div class="block7"><p>Дисциплина 3</p></div>
+        <div class="block7_1"><p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 1</p></div>
+        <div class="block7"><p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 2</p></div>
+        <div class="block7"><p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ 3</p></div>
 
-        <div class="nazad"><p>Назад</p></div>
+        <div class="nazad"><p>пїЅпїЅпїЅпїЅпїЅ</p></div>
     </div>
 </body>
 </html>

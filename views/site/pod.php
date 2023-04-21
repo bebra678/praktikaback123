@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Подразделения</title>
+    <title>РџРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ</title>
     <style type="text/css">
         @font-face { 
     font-family: "JuraLight";
@@ -111,7 +111,7 @@ body {
 
 
 
-/* сотрудники */
+/* СЃРѕС‚СЂСѓРґРЅРёРєРё */
 .back {
     width: 1600px;
     min-height: 1100px;
@@ -491,17 +491,17 @@ img {
     </style>
 </head>
 <body>
-    <div class="top"><p>Учебно-методическое управление</p></div>
-    <div class="pod"><p>Подразделение 1</p></div>
-    <div class="pod"><p>Подразделение 2</p></div>
-    <div class="pod"><p>Подразделение 3</p></div>
+    <div class="top"><p>РЈС‡РµР±РЅРѕ-РјРµС‚РѕРґРёС‡РµСЃРєРѕРµ СѓРїСЂР°РІР»РµРЅРёРµ</p></div>
+    <div class="pod"><p>РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ 1</p></div>
+    <div class="pod"><p>РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ 2</p></div>
+    <div class="pod"><p>РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ 3</p></div>
 
-    <p class="text66">Дисциплины, которые смотрят подразделения:</p>
+    <p class="text66">Р”РёСЃС†РёРїР»РёРЅС‹, РєРѕС‚РѕСЂС‹Рµ СЃРјРѕС‚СЂСЏС‚ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ:</p>
 
-    <div class="block7"><p>Дисциплина 1</p></div>
-    <div class="block7"><p>Дисциплина 2</p></div>
-    <div class="block7"><p>Дисциплина 3</p></div>
+    <div class="block7"><p>Р”РёСЃС†РёРїР»РёРЅР° 1</p></div>
+    <div class="block7"><p>Р”РёСЃС†РёРїР»РёРЅР° 2</p></div>
+    <div class="block7"><p>Р”РёСЃС†РёРїР»РёРЅР° 3</p></div>
 
-    <div class="nazad"><p>Назад</p></div>
+    <div class="nazad"><p>РќР°Р·Р°Рґ</p></div>
 </body>
 </html>

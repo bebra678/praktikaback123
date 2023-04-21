@@ -6,7 +6,7 @@ use Model\Post;
 use Src\View;
 use Model\User;
 use Src\Auth\Auth;
-
+use Src\Validator\Validator;
 
 
 class Site
@@ -22,13 +22,31 @@ class Site
        return new View('site.hello', ['message' => 'hello working']);
    }
 
-    public function signup(Request $request): string
-    {
-        if ($request->method === 'POST' && User::create($request->all())) {
-            app()->route->redirect('/go');
-        }
-        return new View('site.signup');
-    }
+   public function signup(Request $request): string
+   {
+      if ($request->method === 'POST') {
+   
+          $validator = new Validator($request->all(), [
+              'name' => ['required'],
+              'login' => ['required', 'unique:users,login'],
+              'password' => ['required']
+          ], [
+              'required' => 'Поле :field пусто',
+              'unique' => 'Поле :field должно быть уникально'
+          ]);
+   
+          if($validator->fails()){
+              return new View('site.signup',
+                  ['message' => json_encode($validator->errors(), JSON_UNESCAPED_UNICODE)]);
+          }
+   
+          if (User::create($request->all())) {
+              app()->route->redirect('/login');
+          }
+      }
+      return new View('site.signup');
+   }
+   
     public function login(Request $request): string
     {
         //Если просто обращение к странице, то отобразить форму
@@ -49,4 +67,28 @@ class Site
         app()->route->redirect('/hello');
     }
 
+    public function glav(): string
+    {
+        return new View('site.glav');
+    }
+
+    public function dis(): string
+    {
+        return new View('site.dis');
+    }
+
+    public function pod(): string
+    {
+        return new View('site.pod');
+    }
+
+    public function sot(): string
+    {
+        return new View('site.sot');
+    }
+
+    public function check(): string
+    {
+        return new View('site.check');
+    }
 }

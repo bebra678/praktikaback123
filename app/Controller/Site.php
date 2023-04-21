@@ -2,12 +2,11 @@
 
 namespace Controller;
 use Src\Request;
-use Model\Post;
 use Src\View;
 use Model\User;
 use Src\Auth\Auth;
 use Src\Validator\Validator;
-
+use Model\Employee;
 
 class Site
 {
@@ -82,9 +81,23 @@ class Site
         return new View('site.pod');
     }
 
-    public function sot(): string
+    public function sot(Request $request): string
     {
         return new View('site.sot');
+
+        // foreach ($employees as $employee) 
+        // {
+        //     $employee->
+        // }
+        // $post->title
+        // $employees = Employee::all();
+        // $posts = Post::where('id', $request->id)->get();
+        // return (new View())->render('site.post', ['posts' => $posts]);
+        // return new View('site.sot');
+        // $employees = Employee::all();
+        // return (new View())->render('site.sot', ['employees' => $employees]);
+        // $employees = Employee::where('id', $request->id)->get();
+        // return (new View())->render('site.sot', ['employees' => $employees]);
     }
 
     public function check(): string

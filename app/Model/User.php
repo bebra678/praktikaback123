@@ -15,7 +15,6 @@ class User extends Model implements IdentityInterface
        'name',
        'login',
        'password',
-       'admin'
    ];
 
    protected static function booted()

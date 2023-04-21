@@ -14,6 +14,7 @@ class Application
    private Route $route;
    private Capsule $dbManager;
    private Auth $auth;
+   private Admin $admin;
 
    public function __construct(Settings $settings)
    {

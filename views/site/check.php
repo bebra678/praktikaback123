@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>��������</title>
+    <title>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</title>
     <style type="text/css">
         @font-face { 
     font-family: "JuraLight";
@@ -111,7 +111,7 @@ body {
 
 
 
-/* ���������� */
+/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 .back {
     width: 1600px;
     min-height: 1100px;
@@ -428,7 +428,7 @@ img {
     border-radius: 14px;
 }
 
-.nazad p {
+.nazad a {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -492,30 +492,30 @@ img {
 </head>
 <body>
     <div class="back">
-        <div class="top"><p>������-������������ ����������</p></div>
-        <div class="block6_1"><p>������ ��� ��������</p></div>
-        <div class="block6"><p>������ ��� ��������</p></div>
-        <div class="block6"><p>������ ��� ��������</p></div>
+        <div class="top"><p>Учебно-методическое управление</p></div>
+        <div class="block6_1"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6"><p>Фамиля Имя Отчество</p></div>
 
-        <div class="block6_1"><p>������ ��� ��������</p></div>
-        <div class="block6"><p>������ ��� ��������</p></div>
-        <div class="block6"><p>������ ��� ��������</p></div>
+        <div class="block6_1"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6"><p>Фамиля Имя Отчество</p></div>
 
-        <div class="block6_1"><p>������ ��� ��������</p></div>
-        <div class="block6"><p>������ ��� ��������</p></div>
-        <div class="block6"><p>������ ��� ��������</p></div>
+        <div class="block6_1"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6"><p>Фамиля Имя Отчество</p></div>
 
-        <div class="block6_1"><p>������ ��� ��������</p></div>
-        <div class="block6"><p>������ ��� ��������</p></div>
-        <div class="block6"><p>������ ��� ��������</p></div>
+        <div class="block6_1"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6"><p>Фамиля Имя Отчество</p></div>
+        <div class="block6"><p>Фамиля Имя Отчество</p></div>
 
-        <p class="text66">����������, ������� ������� ����������:</p>
+        <p class="text66">Дисциплины, которые смотрят сотрудники:</p>
 
-        <div class="block7_1"><p>���������� 1</p></div>
-        <div class="block7"><p>���������� 2</p></div>
-        <div class="block7"><p>���������� 3</p></div>
+        <div class="block7_1"><p>Дисциплина 1</p></div>
+        <div class="block7"><p>Дисциплина 2</p></div>
+        <div class="block7"><p>Дисциплина 3</p></div>
 
-        <div class="nazad"><p>�����</p></div>
+        <div class="nazad"><a href="<?= app()->route->getUrl('/glav') ?>">Назад</a></div>
     </div>
 </body>
 </html>

@@ -428,7 +428,7 @@ img {
     border-radius: 14px;
 }
 
-.nazad p {
+.nazad a {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -502,6 +502,6 @@ img {
     <div class="block7"><p>Дисциплина 2</p></div>
     <div class="block7"><p>Дисциплина 3</p></div>
 
-    <div class="nazad"><p>Назад</p></div>
+    <div class="nazad"><a href="<?= app()->route->getUrl('/glav') ?>">Назад</a></div>
 </body>
 </html>

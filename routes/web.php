@@ -13,7 +13,7 @@ Route::add('GET', '/dis', [Controller\Site::class, 'dis'])
 ->middleware('auth');
 Route::add('GET', '/check', [Controller\Site::class, 'check'])
 ->middleware('auth');
-Route::add('GET', '/pod', [Controller\Site::class, 'pod'])
+Route::add(['GET', 'POST'], '/pod', [Controller\Site::class, 'pod'])
 ->middleware('auth');
 Route::add('GET', '/sot', [Controller\Site::class, 'sot'])
 ->middleware('auth');

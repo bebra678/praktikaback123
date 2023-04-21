@@ -485,6 +485,11 @@ img {
     color: white;
 }
 
+.lock a  {
+    text-decoration: none;
+    color:white;
+}
+
 .pod:active {
     background-color: #577CFF;
 }
@@ -495,6 +500,6 @@ img {
     <div class="block5_1"><p>Дисциплина 1</p></div>
     <div class="block5"><p>Дисциплина 2</p></div>
     <div class="block5"><p>Дисциплина 3</p></div>
-    <div class="lock">Смотреть</div>
+    <div class="lock"><a href="<?= app()->route->getUrl('/check') ?>">Смотреть</a></div>
 </body>
 </html>

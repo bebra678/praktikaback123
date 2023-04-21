@@ -534,12 +534,11 @@ img {
                 </div>
             </div>
         </div>
-
         <div class="panel">
-            <div><a href="">Главная</a></div>
-            <div><a href="">Сотрудники</a></div>
-            <div><a href="">Подразделения</a></div>
-            <div><a href="">Дисциплины</a></div>
+            <div><a href="<?= app()->route->getUrl('/glav') ?>">Главная</a></div>
+            <div><a href="<?= app()->route->getUrl('/sot') ?>">Сотрудники</a></div>
+            <div><a href="<?= app()->route->getUrl('/pod') ?>">Подразделения</a></div>
+            <div><a href="<?= app()->route->getUrl('/dis') ?>">Дисциплины</a></div>
         </div>
     </div>
 </body>

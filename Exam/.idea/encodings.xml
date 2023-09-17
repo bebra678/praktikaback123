@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/config/app.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/config/path.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/core/Src/Application.php" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/public/index.php" charset="windows-1251" />
+  </component>
+</project>

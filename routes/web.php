@@ -16,7 +16,7 @@ Route::add('GET', '/check', [Controller\Site::class, 'check'])
 Route::add(['GET', 'POST'], '/pod', [Controller\Site::class, 'pod'])
 ->middleware('auth');
 Route::add('GET', '/sot', [Controller\Site::class, 'sot'])
-->middleware('auth');
+->middleware('auth', 'admin');
 Route::add('GET', '/add_sot', [Controller\Site::class, 'add_sot'])
     ->middleware('auth');
 

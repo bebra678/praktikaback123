@@ -63,6 +63,11 @@ class Route
        return $this->prefix . $url;
    }
 
+    public function getUrlId(string $url, string $id): string
+    {
+        return $this->prefix . $url . '/' . $id;
+    }
+
    //Добавление middlewares для текущего маршрута
    public function middleware(...$middlewares): self
    {

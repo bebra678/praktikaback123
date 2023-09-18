@@ -492,8 +492,14 @@ img {
 </head>
 <body>
         <div class="top"><p>Учебно-методическое управление</p></div>
-        <div class="block1"><a href="<?= app()->route->getUrl('/sot') ?>">Сотрудники</a></div>
-        <div class="block"><a href="<?= app()->route->getUrl('/pod') ?>">Подразделения</a></div>
+        <?php
+        if(app()->auth::user()->role > 1)
+        { ?>
+            <div class="block1"><a href="<?= app()->route->getUrl('/sot') ?>">Сотрудники</a></div>
+            <div class="block"><a href="<?= app()->route->getUrl('/pod') ?>">Подразделения</a></div>
+        <?php
+        }
+        ?>
         <div class="block"><a href="<?= app()->route->getUrl('/dis') ?>">Дисциплины</a></div>
 </body>
 </html>

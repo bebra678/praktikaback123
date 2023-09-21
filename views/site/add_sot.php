@@ -491,6 +491,24 @@
     </style>
 </head>
 <body>
-    <h2>Hello</h2>
+<div class="login-page">
+    <div class="form">
+        <form action="" method="post" class="login-form" enctype="multipart/form-data">
+            <h2>Добавление сотрудника</h2>
+            <input name="csrf_token" type="hidden" value="<?= app()->auth::generateCSRF() ?>"/><br>
+            <input type="text" id="first_name" placeholder="фамилия" name="first_name"/><br>
+            <input type="text" id="name" placeholder="имя" name="name"/><br>
+            <input type="text" id="second_name" placeholder="отчество" name="second_name"/><br>
+            <input type="text" id="sex" placeholder="пол" name="sex"/><br>
+            <input type="text" id="date" placeholder="дата рождения" name="date"/><br>
+            <input type="text" id="address" placeholder="адрес прописки" name="address"/><br>
+
+            <input type="text" id="id_subdivision" placeholder="подразделение" name="id_subdivision"/><br>
+            <input type="text" id="id_position" placeholder="должность" name="id_position"/><br>
+<!--            <input type="file" id="photo" placeholder="фото" name="photo"/>-->
+            <br><button class="form_submit">Добавить</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>

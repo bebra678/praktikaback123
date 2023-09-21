@@ -497,6 +497,7 @@ img {
         { ?>
             <div class="block1"><a href="<?= app()->route->getUrl('/sot') ?>">Сотрудники</a></div>
             <div class="block"><a href="<?= app()->route->getUrl('/pod') ?>">Подразделения</a></div>
+            <div class="block"><a href="<?= app()->route->getUrl('/add_sot') ?>">Добавить сотрудника</a></div>
         <?php
         }
         ?>

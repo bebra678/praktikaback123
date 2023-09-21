@@ -89,9 +89,18 @@ class Site
 
     public function sot(Request $request): string
     {
-        $employees = Employee::all();
         $subdivisions = Subdivision::all();
         $positions = Position::all();
+        $employees = Employee::all();
+        if(!empty($_GET["radio"]))
+        {
+            if($_GET['radio'] != 'Все')
+            {
+                $id = $_GET["radio"];
+                $employees = Employee::where('id_subdivision', $id)->get();
+            }
+            //var_dump($_GET['radio']);
+        }
         return (new View())->render('site.sot', ['employees' => $employees, 'subdivisions' => $subdivisions, 'positions' => $positions]);
     }
 
@@ -102,8 +111,29 @@ class Site
         return (new View())->render('site.check', ['employees' => $employees, 'disciplines' => $disciplines]);
     }
 
-    public function add_sot(): string
+    public function add_sot(Request $request): string
     {
-        return new View('site.add_sot');
+        $subdivisions = Subdivision::all();
+        $positions = Position::all();
+        if ($request->method === 'POST') {
+            //var_dump($request);
+  //          $employee = Employee::create($request->all());
+//            $employee->photo($_FILES['photo']);
+       //     $employee->save();
+       //     app()->route->redirect('/sot');
+            $data = [
+                'first_name' => 'test',
+                'name' => 'test',
+                'second_name' => 'test',
+                'sex' => 'test',
+                'address' => 'test',
+                'id_subdivision' => '2',
+                'id_position' => 2];
+            $employee = Employee::create($data);
+            $employee->save();
+        }
+        return new View('site.add_sot', ['subdivisions' => $subdivisions, 'positions' => $positions]);
     }
+
+
 }

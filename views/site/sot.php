@@ -164,7 +164,7 @@
         .block4 {
             border: 1px solid #868686;
             width: 1200px;
-            height: 800px;
+            min-height: 800px;
             border-radius: 14px;
             margin-top: 26px;
             float:left;
@@ -493,13 +493,17 @@
 <body>
 <div class="back">
     <div class="top"><p>Учебно-методическое управление</p></div>
-    <div class="block3_1"><p>Все сотрудники</p></div>
-    <?php
-    foreach($subdivisions as $el)
-    {
-        echo '<div class="block3"><p>' . $el->name . '</p></div>';
-    }?>
-    <!--        <div class="block3"><p>Подразделение 1</p></div>-->
+
+
+    <form action="" method="GET">
+        <input type="radio" id="0" name="radio" value="0">
+        <label for="0">Все сотрудники</label>
+        <?php foreach($subdivisions as $el) { ?>
+            <input type="radio" id="<?= $el->id ?>" name="radio" value="<?= $el->id ?>">
+            <label for="<?= $el->id ?>"><?= $el->name ?></label>
+        <?php } ?>
+        <br><input type="submit">
+    </form>
     <div class="block4">
         <p class="amount">Количество: <?php echo count($employees)?></p>
         <?php
